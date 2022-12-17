@@ -2,7 +2,7 @@
 
 ![preview](./.github/Preview.png)
 
-> Rocket NFTs ( Responsividade Sendo Trabalhada )
+> Rocket NFTs Com Responsividade
 
 Projeto construido por mim
 

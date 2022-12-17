@@ -31,7 +31,7 @@ body {
 
 .header {
   width: 90vw;
-  height: 50px;
+  height: 3.125rem;
   margin: 4.5% auto 7%;
   display: flex;
   justify-content: space-between;
@@ -43,8 +43,8 @@ body {
   height: auto;
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 2.5rem;
+  line-height: 3.063rem;
   margin-right: 1%;
 }
 
@@ -77,16 +77,16 @@ body {
 .header .nav a {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   color: #ffffff;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
+  border-bottom: 0.125rem solid transparent;
   margin-right: 5%;
 }
 
 .header .nav a:hover {
-  border-bottom: 2px solid #ff5b50;
+  border-bottom: 0.125rem solid #ff5b50;
   transition: 0.8s;
 }
 
@@ -95,11 +95,11 @@ body {
   height: auto;
   background-color: #ffffff;
   padding: 0.4%;
-  border: 3px solid transparent;
+  border: 0.188rem solid transparent;
 }
 
 .header button:hover {
-  border: 3px solid #ff5b50;
+  border: 0.188rem solid #ff5b50;
   transition: 0.8s;
 }
 
@@ -119,14 +119,14 @@ body {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 1rem;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #000000;
 }
 
 .main1 {
   width: 90vw;
   height: auto;
-  margin: 0 auto 100px;
+  margin: 0 auto 15%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -140,8 +140,8 @@ body {
 .main1 .aboutCompany .aboutCompanyText {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   color: #ffffff;
   width: 100%;
   height: auto;
@@ -151,7 +151,7 @@ body {
 .main1 .imagesArtistCompany {
   width: 100%;
   height: auto;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
   display: flex;
 }
 
@@ -170,15 +170,15 @@ body {
 .main1 .imagesArtistCompany .selectionedArtists .moreTen {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   color: #ffffff;
 }
 
 .main1 .imagesArtistCompany .selectionedArtists p {
   font-family: "Montserrat";
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   color: #ffffff;
   width: 100%;
 }
@@ -194,8 +194,8 @@ body {
   height: auto;
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 42px;
-  line-height: 61px;
+  font-size: 2.625rem;
+  line-height: 3.813rem;
   color: #ffffff;
 }
 
@@ -226,12 +226,12 @@ body {
   height: auto;
   width: 23%;
   margin-left: 1%;
-  border: 1px solid #ffffff;
+  border: 0.063rem solid #ffffff;
 }
 
 .gallery .gallery1 img:hover,
 .gallery .gallery2 img:hover {
-  border: 1px solid #ff5b50;
+  border: 0.063rem solid #ff5b50;
   transition: 0.8s;
 }
 
@@ -260,8 +260,8 @@ body {
 }
 
 .seelingsQuantity {
-  border-right: 1px solid #5a5757;
-  border-bottom: 1px solid #5a5757;
+  border-right: 0.063rem solid #5a5757;
+  border-bottom: 0.063rem solid #5a5757;
   width: 26%;
   height: fit-content;
 }
@@ -275,16 +275,16 @@ body {
 .values h3 {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 50px;
-  line-height: 61px;
+  font-size: 3.125rem;
+  line-height: 3.813rem;
   color: #ffffff;
 }
 
 .values p {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #5a5757;
   margin-bottom: 25%;
 }
@@ -301,8 +301,8 @@ body {
   height: fit-content;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   color: #ffffff;
 }
 
@@ -325,8 +325,8 @@ body {
 .moreInformations > a {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   color: #ffffff;
 }
 
@@ -338,8 +338,8 @@ body {
 
 .imageSeelings img {
   width: 98%;
-  height: auto;
-  border-bottom: 1px solid #5a5757;
+  height: 98.5%;
+  border-bottom: 0.063rem solid #5a5757;
 }
 
 .main3 {
@@ -352,11 +352,11 @@ body {
 .main3 h2 {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 50px;
-  line-height: 61px;
+  font-size: 3.125rem;
+  line-height: 3.813rem;
   color: #ffffff;
-  margin: 150px 5% 158px 87px;
-  width: 60%;
+  margin: 14% 5% 14.3% 8%;
+  width: 100%;
 }
 
 .main3 h2 span {
@@ -396,8 +396,8 @@ body {
 .astronaut .agroupAstronautTextAndImage p {
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 1.875rem;
+  line-height: 2.313rem;
   color: #ffffff;
 }
 
@@ -418,16 +418,16 @@ body {
 .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #5a5757;
 }
 
 .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #ff5b50;
 }
 
@@ -447,8 +447,8 @@ body {
 .main4 h2 {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 50px;
-  line-height: 61px;
+  font-size: 3.125rem;
+  line-height: 3.813rem;
   color: #ffffff;
   margin: 0 auto;
   margin-bottom: 5%;
@@ -470,17 +470,17 @@ body {
 .artist {
   background-color: #252525;
   width: 26%;
-  height: 150px;
+  height: 9.375rem;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 9.5%;
-  border-radius: 5px;
-  border: 2px solid transparent;
+  border-radius: 0.313rem;
+  border: 0.125rem solid transparent;
 }
 
 .artist:hover {
-  border: 2px solid #ff5b50;
+  border: 0.125rem solid #ff5b50;
   transition: 0.8s;
 }
 
@@ -497,8 +497,8 @@ body {
 .photographs p:nth-of-type(1) {
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #ffffff;
   margin-bottom: 6%;
 }
@@ -506,13 +506,13 @@ body {
 .photographs p:nth-of-type(2) {
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #ff5b50;
 }
 
 .agroupSeeAllArtist {
-  width: 22.6%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -524,21 +524,25 @@ body {
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
-  border-bottom: 2px solid transparent;
-  margin-bottom: 50%;
+  margin-bottom: 5%;
 }
 
-.agroupSeeAllArtist a:hover {
-  border-bottom: 2px solid #ffffff;
+.agroupSeeAllArtist a p {
+  margin-right: 1%;
+  border-bottom: 0.125rem solid transparent;
+}
+
+.agroupSeeAllArtist a p:hover {
+  border-bottom: 0.125rem solid #ffffff;
   transition: 0.8s;
 }
 
@@ -555,7 +559,7 @@ body {
   width: 100%;
   height: auto;
   margin: 5% auto 0;
-  border-bottom: 1px solid #5a5757;
+  border-bottom: 0.063rem solid #5a5757;
 }
 
 .footer .rocketNFTs .agroupRocketNFTs {
@@ -571,8 +575,8 @@ body {
 .footer .rocketNFTs .agroupRocketNFTs h3 {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 40px;
-  line-height: 49px;
+  font-size: 2.5rem;
+  line-height: 3.063rem;
   color: #ffffff;
 }
 
@@ -582,7 +586,7 @@ body {
 
 .footer .rocketNFTs .agroupRocketNFTs .borderFooter {
   width: 7%;
-  height: 80px;
+  height: 5rem;
   background-color: #ff5b50;
   display: flex;
   align-items: center;
@@ -601,9 +605,9 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   flex: 1 0 40%;
-  border-top: 1px solid #5a5757;
-  border-right: 1px solid #5a5757;
-  border-bottom: 1px solid #5a5757;
+  border-top: 0.063rem solid #5a5757;
+  border-right: 0.063rem solid #5a5757;
+  border-bottom: 0.063rem solid #5a5757;
 }
 
 .footer .news h3 {
@@ -611,8 +615,8 @@ body {
   height: auto;
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 1.875rem;
+  line-height: 2.313rem;
   color: #ffffff;
   margin: 8% 4% 5% 13%;
 }
@@ -629,20 +633,20 @@ body {
 
 .footer .news .agroupFormAndButton form input {
   width: 49%;
-  height: 40px;
+  height: 2.5rem;
   background-color: #0d0d0d;
   padding-left: 4%;
   outline: none;
-  border: 2px solid transparent;
+  border: 0.125rem solid transparent;
 }
 
 .footer .news .agroupFormAndButton form input:hover {
-  border: 2px solid #ffffff;
+  border: 0.125rem solid #ffffff;
   transition: 0.8s;
 }
 
 .footer .news .agroupFormAndButton form input:focus {
-  border: 2px solid #ff5b50;
+  border: 0.125rem solid #ff5b50;
   transition: 0.8s;
 }
 
@@ -650,26 +654,26 @@ body {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 1em;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #5a5757;
 }
 
 .footer .news .agroupFormAndButton form button {
   width: 20%;
-  height: 40px;
+  height: 2.5rem;
   background-color: #ffffff;
   margin-left: -1.1%;
   margin-top: 0.7%;
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 1em;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #000000;
-  border: 2px solid transparent;
+  border: 0.125rem solid transparent;
 }
 
 .footer .news .agroupFormAndButton form button:hover {
-  border: 2px solid #ff5b50;
+  border: 0.125rem solid #ff5b50;
   transition: 0.8s;
 }
 
@@ -677,9 +681,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex: 2 0 60%;
-  border-top: 1px solid #5a5757;
-  border-left: 1px solid #5a5757;
-  border-bottom: 1px solid #5a5757;
+  border-top: 0.063rem solid #5a5757;
+  border-left: 0.063rem solid #5a5757;
+  border-bottom: 0.063rem solid #5a5757;
 }
 
 .footer .navMapLinks .company {
@@ -714,8 +718,8 @@ body {
 .footer .navMapLinks .links p {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #ffffff;
 }
 
@@ -724,10 +728,18 @@ body {
 .footer .navMapLinks .links a {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #5a5757;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.footer .navMapLinks .company a:hover,
+.footer .navMapLinks .map a:hover,
+.footer .navMapLinks .links a:hover {
+  border-bottom: 2px solid #ffffff;
+  transition: 0.8s;
 }
 
 .socialMediasContainer {
@@ -735,7 +747,7 @@ body {
   flex-wrap: wrap;
   width: 100vw;
   height: auto;
-  border-bottom: 1px solid #5a5757;
+  border-bottom: 0.063rem solid #5a5757;
 }
 
 .agroupSiteAndSocialMedias {
@@ -751,8 +763,8 @@ body {
 .agroupSiteAndSocialMedias p {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #5a5757;
 }
 
@@ -770,7 +782,1648 @@ body {
 .credits h4 {
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #ffffff;
+}
+
+@media (max-width: 1208px) {
+  .header h1 {
+    width: 30%;
+  }
+
+  .imageSeelings img {
+    height: 91.8%;
+  }
+
+  .imageArtist {
+    width: 29%;
+  }
+}
+
+@media (max-width: 1111px) {
+  .header h1 {
+    width: 31%;
+  }
+
+  .discoverMore h1 {
+    font-size: 2.425rem;
+  }
+
+  .imageSeelings img {
+    height: 95.6%;
+  }
+
+  .artist {
+    width: 45%;
+  }
+
+  .imageArtist {
+    width: 29%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.75rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.45rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+  }
+
+  .astronauts .centerLine {
+    height: 93%;
+  }
+}
+
+@media (max-width: 935px) {
+  .header h1 {
+    width: 32%;
+    font-size: 2rem;
+  }
+
+  .discoverMore h1 {
+    font-size: 2.425rem;
+  }
+
+  .imageSeelings img {
+    height: 91.6%;
+  }
+
+  .artist {
+    width: 45%;
+  }
+
+  .imageArtist {
+    width: 25%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.75rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.45rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+  }
+
+  .astronauts .centerLine {
+    height: 93%;
+  }
+}
+
+@media (max-width: 829px) {
+  .header h1 {
+    width: 32%;
+    font-size: 2rem;
+  }
+
+  .discoverMore h1 {
+    font-size: 2.025rem;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+  }
+
+  .values {
+    width: 45%;
+  }
+
+  .values h3 {
+    font-size: 2.725rem;
+  }
+
+  .moreInformations {
+    font-size: 1.025rem;
+  }
+
+  .imageSeelings img {
+    height: 105.6%;
+  }
+
+  .artist {
+    width: 45%;
+  }
+
+  .imageArtist {
+    width: 25%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.55rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.35rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+  }
+
+  .astronauts .centerLine {
+    height: 93%;
+  }
+}
+
+@media (max-width: 740px) {
+  .main1 {
+    margin-bottom: 8%;
+  }
+  .header h1 {
+    width: 26%;
+    font-size: 1.5rem;
+  }
+
+  .header .nav {
+    width: 49%;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+  }
+
+  .logoMain {
+    display: none;
+  }
+
+  .aboutCompany {
+    width: 40%;
+    margin-right: 7%;
+  }
+
+  .discoverMore {
+    width: 50%;
+  }
+
+  .discoverMore h1 {
+    font-size: 2rem;
+  }
+
+  .gallery .gallery1,
+  .gallery .gallery2 {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .gallery .gallery1 img,
+  .gallery .gallery2 img {
+    width: 40%;
+    margin-left: 0;
+    margin-bottom: 1%;
+  }
+
+  .values {
+    width: 38%;
+  }
+
+  .values h3 {
+    font-size: 2.225rem;
+  }
+
+  .values p {
+    font-size: 1rem;
+  }
+
+  .moreInformations {
+    font-size: 0.9rem;
+  }
+
+  .imageSeelings img {
+    height: 105.6%;
+  }
+
+  .main3 h2 {
+    font-size: 2.7rem;
+  }
+
+  .astronaut .agroupAstronautTextAndImage {
+    width: 100%;
+  }
+
+  .astronaut .agroupAstronautTextAndImage p {
+    font-size: 1.5rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue {
+    width: 100%;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .astronauts .centerLine {
+    height: 93%;
+  }
+
+  .main4 h2 {
+    font-size: 2.5rem;
+  }
+
+  .artist {
+    width: 45%;
+  }
+
+  .imageArtist {
+    width: 23%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.3rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.2rem;
+  }
+
+  .footer .news h3 {
+    width: 82%;
+    font-size: 1.7rem;
+  }
+
+  .footer .news .agroupFormAndButton form input {
+    width: 53%;
+  }
+
+  .footer .news .agroupFormAndButton form button {
+    font-size: 0.9rem;
+    width: 22%;
+  }
+
+  .footer .navMapLinks .company {
+    margin-left: 15%;
+  }
+
+  .footer .navMapLinks .company p,
+  .footer .navMapLinks .map p,
+  .footer .navMapLinks .links p {
+    font-size: 1.1rem;
+  }
+
+  .footer .navMapLinks .company a,
+  .footer .navMapLinks .map a,
+  .footer .navMapLinks .links a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .main1 {
+    margin-bottom: 8%;
+  }
+  .header h1 {
+    width: 26%;
+    font-size: 1.2rem;
+  }
+
+  .header .nav {
+    width: 49%;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+  }
+
+  .logoMain {
+    display: none;
+  }
+
+  .aboutCompany {
+    width: 40%;
+    margin-right: 7%;
+  }
+
+  .discoverMore {
+    width: 50%;
+  }
+
+  .discoverMore h1 {
+    font-size: 2rem;
+  }
+
+  .gallery .gallery1,
+  .gallery .gallery2 {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .gallery .gallery1 img,
+  .gallery .gallery2 img {
+    width: 40%;
+    margin-left: 0;
+    margin-bottom: 1%;
+  }
+
+  .values {
+    width: 38%;
+  }
+
+  .values h3 {
+    font-size: 2.225rem;
+  }
+
+  .values p {
+    font-size: 1rem;
+  }
+
+  .moreInformations {
+    font-size: 0.9rem;
+  }
+
+  .imageSeelings img {
+    height: 105.6%;
+  }
+
+  .main3 h2 {
+    font-size: 2.7rem;
+  }
+
+  .astronaut .agroupAstronautTextAndImage {
+    width: 100%;
+  }
+
+  .astronaut .agroupAstronautTextAndImage p {
+    font-size: 1.5rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue {
+    width: 100%;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .astronauts .centerLine {
+    height: 93%;
+  }
+
+  .main4 h2 {
+    font-size: 2.5rem;
+  }
+
+  .artist {
+    width: 45%;
+  }
+
+  .imageArtist {
+    width: 23%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.3rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.2rem;
+  }
+
+  .footer .news h3 {
+    width: 82%;
+    font-size: 1.7rem;
+  }
+
+  .footer .news .agroupFormAndButton form input {
+    width: 53%;
+  }
+
+  .footer .news .agroupFormAndButton form button {
+    font-size: 0.9rem;
+    width: 22%;
+  }
+
+  .footer .navMapLinks .company {
+    margin-left: 15%;
+  }
+
+  .footer .navMapLinks .company p,
+  .footer .navMapLinks .map p,
+  .footer .navMapLinks .links p {
+    font-size: 1.1rem;
+  }
+
+  .footer .navMapLinks .company a,
+  .footer .navMapLinks .map a,
+  .footer .navMapLinks .links a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .main1 {
+    margin-bottom: 8%;
+  }
+  .header h1 {
+    width: 18%;
+    font-size: 0.9rem;
+  }
+
+  .header .nav {
+    width: 49%;
+  }
+
+  .header .nav a {
+    font-size: 1rem;
+  }
+
+  .header button .agroupImgAndTextHeader img {
+    display: none;
+  }
+
+  .main1 .aboutCompany .aboutCompanyText {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany .selectionedArtists .moreTen,
+  .main1 .imagesArtistCompany .selectionedArtists p {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+  }
+
+  .logoMain {
+    display: none;
+  }
+
+  .aboutCompany {
+    width: 40%;
+    margin-right: 7%;
+  }
+
+  .discoverMore {
+    width: 50%;
+  }
+
+  .discoverMore h1 {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+  }
+
+  .gallery .gallery1,
+  .gallery .gallery2 {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .gallery .gallery1 img,
+  .gallery .gallery2 img {
+    width: 40%;
+    margin-left: 0;
+    margin-bottom: 1%;
+  }
+
+  .values {
+    width: 38%;
+  }
+
+  .values h3 {
+    font-size: 2.225rem;
+  }
+
+  .values p {
+    font-size: 1rem;
+  }
+
+  .moreInformations {
+    font-size: 0.9rem;
+  }
+
+  .imageSeelings img {
+    height: 79.6%;
+  }
+
+  .main3 h2 {
+    font-size: 2.5rem;
+    width: 92%;
+  }
+
+  .astronaut .agroupAstronautTextAndImage {
+    width: 100%;
+    display: block;
+  }
+
+  .astronaut .agroupAstronautTextAndImage p {
+    font-size: 1.5rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue {
+    width: 100%;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .astronauts .centerLine {
+    height: 93%;
+  }
+
+  .main4 h2 {
+    font-size: 2.5rem;
+  }
+
+  .artist {
+    width: 45%;
+    height: 7rem;
+  }
+
+  .imageArtist {
+    width: 23%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs h3 {
+    font-size: 2.3rem;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs .borderFooter {
+    width: 13%;
+  }
+
+  .footer .news h3 {
+    width: 82%;
+    font-size: 1.5rem;
+  }
+
+  .footer .news .agroupFormAndButton form input {
+    width: 53%;
+  }
+
+  .footer .news .agroupFormAndButton form button {
+    font-size: 0.8rem;
+    width: 22%;
+  }
+
+  .footer .navMapLinks .company {
+    margin-left: 8%;
+    margin-right: 18%;
+  }
+
+  .footer .navMapLinks .map {
+    width: 19%;
+  }
+
+  .footer .navMapLinks .company p,
+  .footer .navMapLinks .map p,
+  .footer .navMapLinks .links p {
+    font-size: 1.1rem;
+  }
+
+  .footer .navMapLinks .company a,
+  .footer .navMapLinks .map a,
+  .footer .navMapLinks .links a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main1 {
+    margin-bottom: 8%;
+  }
+  .header h1 {
+    width: 18%;
+    font-size: 0.7rem;
+  }
+
+  .header .nav {
+    width: 49%;
+  }
+
+  .header .nav a {
+    font-size: 0.9rem;
+  }
+
+  .header button .agroupImgAndTextHeader img {
+    display: none;
+  }
+
+  .header button .agroupImgAndTextHeader p {
+    font-size: 0.9rem;
+  }
+
+  .main1 .aboutCompany .aboutCompanyText {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany .selectionedArtists .moreTen,
+  .main1 .imagesArtistCompany .selectionedArtists p {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+    display: none;
+  }
+
+  .logoMain {
+    display: none;
+  }
+
+  .aboutCompany {
+    width: 40%;
+    margin-right: 7%;
+  }
+
+  .discoverMore {
+    width: 50%;
+  }
+
+  .discoverMore h1 {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+  }
+
+  .gallery .gallery1,
+  .gallery .gallery2 {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .gallery .gallery1 img,
+  .gallery .gallery2 img {
+    width: 40%;
+    margin-left: 0;
+    margin-bottom: 1%;
+  }
+
+  .values {
+    width: 80%;
+    margin: 34% 27% 32.4%;
+  }
+
+  .values h3 {
+    font-size: 1.8rem;
+  }
+
+  .values p {
+    font-size: 1rem;
+  }
+
+  .moreInformations {
+    font-size: 0.8rem;
+  }
+
+  .moreInformations > a {
+    font-size: 0.9rem;
+  }
+
+  .imageSeelings img {
+    height: 90.6%;
+  }
+
+  .main3 h2 {
+    font-size: 2rem;
+    width: 92%;
+  }
+
+  .astronauts {
+    justify-content: space-around;
+  }
+
+  .astronaut .agroupAstronautTextAndImage {
+    width: 100%;
+    display: flex;
+  }
+
+  .astronaut .agroupAstronautTextAndImage p {
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue {
+    width: 100%;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .astronauts .centerLine {
+    height: 93%;
+  }
+
+  .main4 h2 {
+    font-size: 2.5rem;
+  }
+
+  .artist {
+    width: 45%;
+    height: 7rem;
+  }
+
+  .imageArtist {
+    width: 23%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1rem;
+  }
+
+  .agroupSeeAllArtist a p {
+    margin-right: 3%;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs h3 {
+    font-size: 2rem;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs .borderFooter {
+    width: 13%;
+  }
+
+  .footer .formAndNav {
+    flex-direction: column;
+  }
+
+  .footer .news {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer .news h3 {
+    width: 82%;
+    font-size: 1.5rem;
+    margin: 7% 6% 4% 1%;
+  }
+
+  .footer .news .agroupFormAndButton form input {
+    width: 53%;
+  }
+
+  .footer .news .agroupFormAndButton form button {
+    font-size: 0.8rem;
+    width: 22%;
+  }
+
+  .footer .navMapLinks {
+    width: 100vw;
+    padding-bottom: 5%;
+  }
+
+  .footer .navMapLinks .company {
+    margin-left: 8%;
+    margin-right: 18%;
+  }
+
+  .footer .navMapLinks .map {
+    width: 19%;
+  }
+
+  .footer .navMapLinks .company p,
+  .footer .navMapLinks .map p,
+  .footer .navMapLinks .links p {
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+  }
+
+  .footer .navMapLinks .company a,
+  .footer .navMapLinks .map a,
+  .footer .navMapLinks .links a {
+    font-size: 1.1rem;
+    margin-bottom: 4%;
+  }
+
+  .socialMediasContainer {
+    padding: 4%;
+  }
+}
+
+@media (max-width: 452px) {
+  .main1 {
+    margin-bottom: 8%;
+  }
+  .header h1 {
+    width: 13%;
+    font-size: 0.5rem;
+    display: none;
+  }
+
+  .header .nav {
+    width: 69%;
+  }
+
+  .header .nav a {
+    font-size: 1.1rem;
+  }
+
+  .header button .agroupImgAndTextHeader img {
+    display: none;
+  }
+
+  .header button .agroupImgAndTextHeader p {
+    font-size: 0.8rem;
+  }
+
+  .main1 .aboutCompany .aboutCompanyText {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany .selectionedArtists .moreTen,
+  .main1 .imagesArtistCompany .selectionedArtists p {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+    display: none;
+  }
+
+  .logoMain {
+    display: none;
+  }
+
+  .aboutCompany {
+    width: 40%;
+    margin-right: 7%;
+  }
+
+  .discoverMore {
+    width: 50%;
+  }
+
+  .discoverMore h1 {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+  }
+
+  .gallery .gallery1,
+  .gallery .gallery2 {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .gallery2 {
+    display: none;
+  }
+
+  .gallery .gallery1 img,
+  .gallery .gallery2 img {
+    width: 49%;
+    margin-left: 0;
+    margin-bottom: 1%;
+  }
+
+  .values {
+    width: 80%;
+    margin: 34% 27% 32.4%;
+  }
+
+  .values h3 {
+    font-size: 1.8rem;
+  }
+
+  .values p {
+    font-size: 1rem;
+  }
+
+  .moreInformations {
+    font-size: 0.8rem;
+  }
+
+  .moreInformations > a {
+    font-size: 0.9rem;
+  }
+
+  .imageSeelings img {
+    height: 90.7%;
+  }
+
+  .main3 h2 {
+    font-size: 1.8rem;
+    width: 92%;
+  }
+
+  .astronauts {
+    justify-content: space-around;
+  }
+
+  .astronaut .agroupAstronautTextAndImage {
+    width: 100%;
+    display: flex;
+  }
+
+  .astronaut .agroupAstronautTextAndImage p {
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue {
+    width: 100%;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .astronauts .centerLine {
+    height: 100%;
+  }
+
+  .main4 h2 {
+    font-size: 2.5rem;
+  }
+
+  .bestArtists {
+    justify-content: center;
+  }
+
+  .artist {
+    width: 100%;
+    height: 8rem;
+  }
+
+  .imageArtist {
+    width: 23%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.8rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.6rem;
+  }
+
+  .agroupSeeAllArtist a p {
+    margin-right: 3%;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs h3 {
+    font-size: 2rem;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs .borderFooter {
+    width: 13%;
+  }
+
+  .footer .formAndNav {
+    flex-direction: column;
+  }
+
+  .footer .news {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer .news h3 {
+    width: 82%;
+    font-size: 1.5rem;
+    margin: 7% 6% 4% 1%;
+  }
+
+  .footer .news .agroupFormAndButton form input {
+    width: 53%;
+  }
+
+  .footer .news .agroupFormAndButton form button {
+    font-size: 0.8rem;
+    width: 22%;
+  }
+
+  .footer .navMapLinks {
+    width: 100vw;
+    padding-bottom: 5%;
+  }
+
+  .footer .navMapLinks .company {
+    margin-left: 8%;
+    margin-right: 18%;
+  }
+
+  .footer .navMapLinks .map {
+    width: 19%;
+  }
+
+  .footer .navMapLinks .company p,
+  .footer .navMapLinks .map p,
+  .footer .navMapLinks .links p {
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+  }
+
+  .footer .navMapLinks .company a,
+  .footer .navMapLinks .map a,
+  .footer .navMapLinks .links a {
+    font-size: 1.1rem;
+    margin-bottom: 4%;
+  }
+
+  .socialMediasContainer {
+    padding: 4%;
+  }
+}
+
+@media (max-width: 391px) {
+  .main1 {
+    margin-bottom: 8%;
+  }
+  .header h1 {
+    width: 13%;
+    font-size: 0.5rem;
+    display: none;
+  }
+
+  .header .nav {
+    width: 69%;
+  }
+
+  .header .nav a {
+    font-size: 0.9rem;
+  }
+
+  .header button .agroupImgAndTextHeader img {
+    display: none;
+  }
+
+  .header button .agroupImgAndTextHeader p {
+    font-size: 0.8rem;
+  }
+
+  .main1 .aboutCompany .aboutCompanyText {
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 8%;
+  }
+
+  .main1 .imagesArtistCompany .selectionedArtists .moreTen,
+  .main1 .imagesArtistCompany .selectionedArtists p {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+    display: none;
+  }
+
+  .logoMain {
+    display: none;
+  }
+
+  .aboutCompany {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .discoverMore {
+    width: 100%;
+  }
+
+  .discoverMore h1 {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .gallery .gallery1,
+  .gallery .gallery2 {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .gallery2 {
+    display: none;
+  }
+
+  .gallery .gallery1 img,
+  .gallery .gallery2 img {
+    width: 49%;
+    margin-left: 0;
+    margin-bottom: 1%;
+  }
+
+  .seelingsQuantity {
+    width: 34%;
+  }
+
+  .values {
+    width: 80%;
+    margin: 34% 27% 32.4%;
+  }
+
+  .values h3 {
+    font-size: 1.8rem;
+  }
+
+  .values p {
+    font-size: 1rem;
+  }
+
+  .agroupMoreInformations {
+    width: 65%;
+  }
+
+  .moreInformations {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .moreInformations:nth-of-type(2) {
+    display: none;
+  }
+
+  .moreInformations > a {
+    font-size: 1.4rem;
+  }
+
+  .imageSeelings img {
+    height: 90.7%;
+    display: none;
+  }
+
+  .main3 h2 {
+    font-size: 1.6rem;
+    width: 92%;
+  }
+
+  .astronauts {
+    justify-content: center;
+  }
+
+  .astronaut {
+    width: 90%;
+    margin-bottom: 10%;
+  }
+
+  .astronaut .agroupAstronautTextAndImage {
+    width: 100%;
+    display: flex;
+  }
+
+  .astronaut .agroupAstronautTextAndImage p {
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue {
+    width: 100%;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .astronauts .centerLine {
+    height: 100%;
+    display: none;
+  }
+
+  .main4 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .bestArtists {
+    justify-content: center;
+  }
+
+  .artist {
+    width: 100%;
+    height: 8rem;
+  }
+
+  .imageArtist {
+    width: 23%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.8rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.6rem;
+  }
+
+  .agroupSeeAllArtist a p {
+    margin-right: 3%;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs h3 {
+    font-size: 2rem;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs .borderFooter {
+    width: 13%;
+  }
+
+  .footer .formAndNav {
+    flex-direction: column;
+  }
+
+  .footer .news {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer .news h3 {
+    width: 82%;
+    font-size: 1.5rem;
+    margin: 7% 6% 4% 1%;
+  }
+
+  .footer .news .agroupFormAndButton form input {
+    width: 53%;
+  }
+
+  .footer .news .agroupFormAndButton form button {
+    font-size: 0.8rem;
+    width: 22%;
+  }
+
+  .agroupSiteAndSocialMedias {
+    justify-content: center;
+  }
+
+  .agroupSiteAndSocialMedias p {
+    margin-bottom: 10%;
+  }
+
+  .socialMedias {
+    width: 81%;
+  }
+
+  .footer .navMapLinks {
+    width: 100vw;
+    padding-bottom: 5%;
+  }
+
+  .footer .navMapLinks .company {
+    margin-left: 8%;
+    margin-right: 18%;
+  }
+
+  .footer .navMapLinks .map {
+    width: 19%;
+  }
+
+  .footer .navMapLinks .company p,
+  .footer .navMapLinks .map p,
+  .footer .navMapLinks .links p {
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+  }
+
+  .footer .navMapLinks .company a,
+  .footer .navMapLinks .map a,
+  .footer .navMapLinks .links a {
+    font-size: 1.1rem;
+    margin-bottom: 4%;
+  }
+
+  .socialMediasContainer {
+    padding: 4%;
+  }
+
+  .credits {
+    margin: 10% auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .main1 {
+    margin-bottom: 8%;
+  }
+  .header h1 {
+    width: 13%;
+    font-size: 0.5rem;
+    display: none;
+  }
+
+  .header .nav {
+    width: 73%;
+  }
+
+  .header .nav a {
+    font-size: 0.9rem;
+  }
+
+  .header button .agroupImgAndTextHeader img {
+    display: none;
+  }
+
+  .header button {
+    width: 23%;
+  }
+
+  .header button .agroupImgAndTextHeader p {
+    font-size: 0.7rem;
+  }
+
+  .main1 .aboutCompany .aboutCompanyText {
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 8%;
+  }
+
+  .main1 .imagesArtistCompany .selectionedArtists .moreTen,
+  .main1 .imagesArtistCompany .selectionedArtists p {
+    font-size: 1rem;
+  }
+
+  .main1 .imagesArtistCompany {
+    width: 90%;
+    display: none;
+  }
+
+  .logoMain {
+    display: none;
+  }
+
+  .aboutCompany {
+    width: 100%;
+    margin-right: 0%;
+  }
+
+  .discoverMore {
+    width: 100%;
+  }
+
+  .discoverMore h1 {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+
+  .gallery .gallery1,
+  .gallery .gallery2 {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .gallery2 {
+    display: none;
+  }
+
+  .gallery .gallery1 img,
+  .gallery .gallery2 img {
+    width: 49%;
+    margin-left: 0;
+    margin-bottom: 1%;
+  }
+
+  .seelingsQuantity {
+    width: 34%;
+  }
+
+  .values {
+    width: 80%;
+    margin: 34% 27% 32.4%;
+  }
+
+  .values h3 {
+    font-size: 1.8rem;
+  }
+
+  .values p {
+    font-size: 1rem;
+  }
+
+  .agroupMoreInformations {
+    width: 65%;
+  }
+
+  .moreInformations {
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  .moreInformations:nth-of-type(2) {
+    display: none;
+  }
+
+  .moreInformations > a {
+    font-size: 1.4rem;
+  }
+
+  .imageSeelings img {
+    height: 90.7%;
+    display: none;
+  }
+
+  .main3 h2 {
+    font-size: 2rem;
+    width: 92%;
+    line-height: 3rem;
+  }
+
+  .astronauts {
+    justify-content: center;
+  }
+
+  .astronaut {
+    width: 90%;
+    margin-bottom: 10%;
+  }
+
+  .astronaut .agroupAstronautTextAndImage {
+    width: 100%;
+    display: flex;
+  }
+
+  .astronaut .agroupAstronautTextAndImage p {
+    font-size: 1.6rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue {
+    width: 100%;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(1) {
+    margin-right: 3%;
+    font-size: 1.1rem;
+  }
+
+  .astronaut .agroupNameAstronauAndValue p:nth-of-type(2) {
+    font-size: 1.1rem;
+  }
+
+  .astronauts .centerLine {
+    height: 100%;
+    display: none;
+  }
+
+  .main4 h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .bestArtists {
+    justify-content: center;
+  }
+
+  .artist {
+    width: 100%;
+    height: 8rem;
+  }
+
+  .imageArtist {
+    width: 23%;
+  }
+
+  .photographs p:nth-of-type(1) {
+    font-size: 1.4rem;
+    margin-bottom: 10%;
+  }
+
+  .photographs p:nth-of-type(2) {
+    font-size: 1.4rem;
+  }
+
+  .agroupSeeAllArtist a p {
+    margin-right: 6%;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs h3 {
+    font-size: 1.7rem;
+  }
+
+  .footer .rocketNFTs .agroupRocketNFTs .borderFooter {
+    width: 13%;
+  }
+
+  .footer .formAndNav {
+    flex-direction: column;
+  }
+
+  .footer .news {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer .news h3 {
+    width: 82%;
+    font-size: 1.5rem;
+    margin: 7% 6% 4% 1%;
+  }
+
+  .footer .news .agroupFormAndButton form input {
+    width: 53%;
+  }
+
+  .footer .news .agroupFormAndButton form button {
+    font-size: 0.8rem;
+    width: 22%;
+  }
+
+  .agroupSiteAndSocialMedias {
+    justify-content: center;
+  }
+
+  .agroupSiteAndSocialMedias p {
+    margin-bottom: 10%;
+  }
+
+  .socialMedias {
+    width: 81%;
+  }
+
+  .footer .navMapLinks {
+    width: 100vw;
+    padding-bottom: 5%;
+  }
+
+  .footer .navMapLinks .company {
+    margin-left: 8%;
+    margin-right: 18%;
+  }
+
+  .footer .navMapLinks .map {
+    width: 19%;
+  }
+
+  .footer .navMapLinks .company p,
+  .footer .navMapLinks .map p,
+  .footer .navMapLinks .links p {
+    font-size: 1.1rem;
+    margin-bottom: 10%;
+  }
+
+  .footer .navMapLinks .company a,
+  .footer .navMapLinks .map a,
+  .footer .navMapLinks .links a {
+    font-size: 1.1rem;
+    margin-bottom: 4%;
+  }
+
+  .socialMediasContainer {
+    padding: 4%;
+  }
+
+  .credits {
+    margin: 10% auto;
+  }
+
+  .credits h4 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+  }
 }
