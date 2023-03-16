@@ -12,6 +12,9 @@ Projeto construido por mim
 
 - HTML
 - CSS
+- SASS
+- SCSS
+- Minify
 - Figma
 - Git & Github
 
